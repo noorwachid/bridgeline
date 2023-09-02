@@ -1,2 +1,2 @@
 # TContent
-ANSI escape sequence library
+ANSI common escape sequence library

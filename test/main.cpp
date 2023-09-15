@@ -1,20 +1,20 @@
-#include "TContent/Size.h"
-#include "TContent/Style.h"
-#include "TContent/Color.h"
+#include "bridgeline/color.h"
+#include "bridgeline/size.h"
+#include "bridgeline/style.h"
 #include <iostream>
 
-using namespace TContent;
+using namespace BridgeLine;
 
-int main()
-{
-	std::cout << "normal" << "\n";
-	std::cout << Bold("bold") << "\n";
-	std::cout << Italic("italic") << "\n";
-	std::cout << Underline("underlined") << "\n";
-	std::cout << Dim("dimmed") << "\n";
-	std::cout << Cross("crossed") << "\n";
-	std::cout << ColorizeBackground(" OUT ", 0x2390FF) << " " << ColorizeForeground("hello world", 0x33FE83) << "\n";
-	std::cout << GetSize().ToString() << "\n";
+int main() {
+	std::cout << "normal"
+			  << "\n";
+	std::cout << bold("bold") << "\n";
+	std::cout << italize("italic") << "\n";
+	std::cout << underline("underlined") << "\n";
+	std::cout << dim("dimmed") << "\n";
+	std::cout << cross("crossed") << "\n";
+	std::cout << colorizeBackground(" OUT ", 0x2390FF) << " " << colorizeForeground("hello world", 0x33FE83) << "\n";
+	std::cout << getSize().toString() << "\n";
 
 	return 0;
 }

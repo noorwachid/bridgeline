@@ -6,8 +6,7 @@
 using namespace BridgeLine;
 
 int main() {
-	std::cout << "normal"
-			  << "\n";
+	std::cout << "normal\n";
 	std::cout << bold("bold") << "\n";
 	std::cout << italize("italic") << "\n";
 	std::cout << underline("underlined") << "\n";

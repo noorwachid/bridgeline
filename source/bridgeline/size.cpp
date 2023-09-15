@@ -1,4 +1,4 @@
-#include "BridgeLine/Size.h"
+#include "bridgeline/size.h"
 
 #if defined(__unix__) || defined(__APPLE__)
 #include <stdio.h>
